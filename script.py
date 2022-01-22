@@ -12,7 +12,7 @@ Here You Can Search Movie And Web Series Just Sand Your Movie or Web Series Righ
 
 ➥ Mean Chennel : <a href='https://t.me/Hindi_world_series'>Hindi World Series</a>
 ➥ Mean Group : <a href='https://t.me/+1abklwNORh9kZWU9'>Chat🍿Room</a>
-➥ Bot Server : <a href='https://heroku.com'>Heroku</a>
+➥ Bot Server : <a href='https://heroku.com'>Heroku</a>"""
 
     SOURCE_TXT = """<b>Source:</b>
 IMDb is a Open source project.
