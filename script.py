@@ -1,23 +1,20 @@
 class Script(object):
-    START_TXT = """Hello {},
+    START_TXT =
 
-My name is <a href=https://t.me/{}>{}</a>!
+Hi, I'm <a href=https://t.me/Hindi_world_series>Hindi world seriea</a>! Smart Media Search bot
 
-<b>I can provide Movies. A Telegram Auto Filter Bot. Its Easy To Use Me :)
-
-Just Add me to Your Group As Admin, Hit The Help Button For More Info..</b>"""
+Here You Can Search Movie And Web Series Just Sand Your Movie or Web Series Right Name"""
 
     HELP_TXT = """Hey {}
 
 <b>Here Is The Help For My Commands.</b>"""
 
     ABOUT_TXT = """<b>➥ My name: {}
-➥ Creator: <a href='https://t.me/zautekm'>Zaute Km</a>
-➥ Library: <a href='https://docs.pyrogram.org/'>Pyrogram</a>
-➥ Language: Python 𝟹
-➥ Data Base: <a href='https://www.mongodb.com/'>MongoDB</a>
-➥ Bot Server: <a href='https://heroku.com'>Heroku</a>
-➥ Build Status: v2.0.1 [ Beta ]"""
+➥ Owner : <a href='https://t.me/Hidden_boy_i'>Only q</a>
+
+➥ Mean Chennel : <a href='https://t.me/Hindi_world_series'>Hindi World Series</a>
+➥ Mean Group : <a href='https://t.me/+1abklwNORh9kZWU9'>Chat🍿Room</a>
+➥ Bot Server : <a href='https://heroku.com'>Heroku</a>
 
     SOURCE_TXT = """<b>Source:</b>
 IMDb is a Open source project.
