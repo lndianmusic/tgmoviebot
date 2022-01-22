@@ -48,7 +48,7 @@ async def start(client, message):
             InlineKeyboardButton('help', callback_data='help'),
             InlineKeyboardButton('about', callback_data='about')
             ],[
-            InlineKeyboardButton('Mean Channel', url='https://t.me/Hindi_world_seties'),
+            InlineKeyboardButton('Mean Channel', url='https://t.me/Hindi_world_series'),
             InlineKeyboardButton('Mean Group', url='https://t.me/+1abklwNORh9kZWU9')
             ],[
             InlineKeyboardButton('❌    Close    ❌', callback_data='close_data')
