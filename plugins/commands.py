@@ -23,7 +23,7 @@ async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [
             [
-                InlineKeyboardButton('updates', url='https://t.me/josprojects')
+                InlineKeyboardButton('Mean Channel', url='https://t.me/Hindi_world_series')
             ],
             [
                 InlineKeyboardButton('help', url=f"https://t.me/{temp.U_NAME}?start=help"),
@@ -48,12 +48,10 @@ async def start(client, message):
             InlineKeyboardButton('help', callback_data='help'),
             InlineKeyboardButton('about', callback_data='about')
             ],[
-            InlineKeyboardButton('search here movie', switch_inline_query_current_chat='')
+            InlineKeyboardButton('Mean Channel', url='https://t.me/Hindi_world_seties'),
+            InlineKeyboardButton('Mean Group', url='https://t.me/+1abklwNORh9kZWU9')
             ],[
-            InlineKeyboardButton('updates', url='https://t.me/josprojects'),
-            InlineKeyboardButton('movie club', url='https://t.me/+y53tWFUw6Q43NzE9')
-            ],[
-            InlineKeyboardButton('✗ Close the Menu ✗', callback_data='close_data')
+            InlineKeyboardButton('❌    Close    ❌', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -73,7 +71,7 @@ async def start(client, message):
         btn = [
             [
                 InlineKeyboardButton(
-                    "🤖 Join Updates Channel", url=invite_link.invite_link
+                    "🤖 Join Mean Channel", url=invite_link.invite_link
                 )
             ]
         ]
@@ -96,12 +94,10 @@ async def start(client, message):
             InlineKeyboardButton('help', callback_data='help'),
             InlineKeyboardButton('about', callback_data='about')
             ],[
-            InlineKeyboardButton('search here movie', switch_inline_query_current_chat='')
+            InlineKeyboardButton('Mean Channel', url='https://t.me/hindi_world_series'),
+            InlineKeyboardButton('Mean Group', url='https://t.me/+1abklwNORh9kZWU9')
             ],[
-            InlineKeyboardButton('updates', url='https://t.me/josprojects'),
-            InlineKeyboardButton('movie club', url='https://t.me/+y53tWFUw6Q43NzE9')
-            ],[
-            InlineKeyboardButton('✗ Close the Menu ✗', callback_data='close_data')
+            InlineKeyboardButton('❌    Close    ❌', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -146,11 +142,11 @@ async def start(client, message):
                 f_caption = f"{title}"
             buttons = [
                 [
-                    InlineKeyboardButton('support', url='https://t.me/JOSPSupport'),
-                    InlineKeyboardButton('channel', url='https://t.me/JosProjects')
+                    InlineKeyboardButton('support', url='https://t.me/Hidden_boy_i'),
+                    InlineKeyboardButton('Mean channel', url='https://t.me/Hindi_world_series')
                 ],
                 [
-                    InlineKeyboardButton('Series & Movie Club', url=f'https://t.me/+y53tWFUw6Q43NzE9')
+                    InlineKeyboardButton('Mean Channel', url=f'https://t.me/hindi_world_series')
                 ]
                 ]
             try:
@@ -260,11 +256,11 @@ async def start(client, message):
         f_caption = f"{files.file_name}"
     buttons = [
         [
-            InlineKeyboardButton('support', url='https://t.me/JOSPSupport'),
-            InlineKeyboardButton('channel', url='https://t.me/JosProjects')
+            InlineKeyboardButton('support', url='https://t.me/Hidden_boy_i'),
+            InlineKeyboardButton('Mean channel', url='https://t.me/Hindi_world_series')
         ],
         [
-            InlineKeyboardButton('Series & Movie Club', url=f'https://t.me/+y53tWFUw6Q43NzE9')
+            InlineKeyboardButton('Mean Channel', url=f'https://t.me/Hindi_world_series')
         ]
         ]
     await client.send_cached_media(
