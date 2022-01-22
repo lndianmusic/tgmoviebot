@@ -8,7 +8,7 @@ from utils import get_size, temp, get_settings
 from script import Script
 from pyrogram.errors import ChatAdminRequired
 
-"""-----------------------------------------https://t.me/JosProjects --------------------------------------"""
+"""-----------------------------------------https://t.me/Hindi_world_series --------------------------------------"""
 
 @Client.on_message(filters.new_chat_members & filters.group)
 async def save_group(bot, message):
@@ -38,7 +38,7 @@ async def save_group(bot, message):
             return
         buttons = [[
             InlineKeyboardButton('help', url=f"https://t.me/{temp.U_NAME}?start=help"),
-            InlineKeyboardButton('updates', url='https:/t.me/JosProjects')
+            InlineKeyboardButton('Mean Channel', url='https:/t.me/Hidni_world_series')
         ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await message.reply_text(
@@ -49,7 +49,7 @@ async def save_group(bot, message):
         if settings["welcome"]:
             for u in message.new_chat_members:
                 buttons = [[
-                InlineKeyboardButton('👉 ⚠️ Press me... 🥰 👈', url="https://t.me/josprojects")
+                InlineKeyboardButton('👉 ⚠️ Press me... 🥰 👈', url="https://t.me/Hindi_world_series")
             ]]
                 if (temp.MELCOW).get('welcome') is not None:
                     try:
