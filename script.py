@@ -1,7 +1,5 @@
 class Script(object):
-    START_TXT =
-
-Hi, I'm <a href=https://t.me/Hindi_world_series>Hindi world seriea</a>! Smart Media Search bot
+    START_TXT = """Hi, I'm <a href=https://t.me/Hindi_world_series>Hindi world seriea</a>! Smart Media Search bot
 
 Here You Can Search Movie And Web Series Just Sand Your Movie or Web Series Right Name"""
 
