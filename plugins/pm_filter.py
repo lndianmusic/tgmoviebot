@@ -361,12 +361,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
             f_caption = f"{files.file_name}"
         buttons = [
             [
-                InlineKeyboardButton('support', url='https://t.me/Hidden_boy_i'),
+                InlineKeyboardButton('Mean Group', url='https://t.me/+1abklwNORh9kZWU9'),
                 InlineKeyboardButton('Mean channel', url='https://t.me/Hindi_world_series')
             ],
-            [
-                InlineKeyboardButton('Series & Movie Club', url=f'https://t.me/+1abklwNORh9kZWU9')
-            ]
+            
             ]
             
         try:
@@ -415,12 +413,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
             f_caption = f"{title}"
         buttons = [
             [
-                InlineKeyboardButton('support', url='https://t.me/Hidden_boy_i'),
+                InlineKeyboardButton('Mean Group', url='https://t.me/+1abklwNORh9kZWU9'),
                 InlineKeyboardButton('Mean Channel', url='https://t.me/Hindi_world_series')
             ],
-            [
-                InlineKeyboardButton('Series & Movie Club', url=f'https://t.me/+1abklwNORh9kZWU9')
-            ]
             ]
         await query.answer()
         await client.send_cached_media(
