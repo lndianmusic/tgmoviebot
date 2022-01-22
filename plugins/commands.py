@@ -142,12 +142,9 @@ async def start(client, message):
                 f_caption = f"{title}"
             buttons = [
                 [
-                    InlineKeyboardButton('support', url='https://t.me/Hidden_boy_i'),
+                    InlineKeyboardButton('Mean Group', url='https://t.me/+1abklwNORh9kZWU9'),
                     InlineKeyboardButton('Mean channel', url='https://t.me/Hindi_world_series')
                 ],
-                [
-                    InlineKeyboardButton('Mean Channel', url=f'https://t.me/hindi_world_series')
-                ]
                 ]
             try:
                 await client.send_cached_media(
@@ -256,12 +253,9 @@ async def start(client, message):
         f_caption = f"{files.file_name}"
     buttons = [
         [
-            InlineKeyboardButton('support', url='https://t.me/Hidden_boy_i'),
-            InlineKeyboardButton('Mean channel', url='https://t.me/Hindi_world_series')
+            InlineKeyboardButton('Mean Group', url='https://t.me/+1abklwNORh9kZWU9'),
+            InlineKeyboardButton('Mean Channel', url='https://t.me/Hindi_world_series')
         ],
-        [
-            InlineKeyboardButton('Mean Channel', url=f'https://t.me/Hindi_world_series')
-        ]
         ]
     await client.send_cached_media(
         chat_id=message.from_user.id,
