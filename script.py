@@ -16,13 +16,13 @@ Here You Can Search Movie And Web Series Just Sand Your Movie or Web Series Righ
 
     SOURCE_TXT = """<b>Source:</b>
 IMDb is a Open source project.
-Source: <a href='https://github.com/josprojects/tgmoviebot'>GitHub - Click here 👈</a>
+Source: <a href='https://t.me/hindi_world_series'>GitHub - Click here 👈</a>
 
 <b>DEVS:</b>
-- <a href='https://t.me/josprojects'>Jos Projects</a>
+- <a href='https://t.me/Hidden_boy_i'>Only q </a>
 
-<b>SUPPORT GROUP</b>
-- <a href='https://t.me/+y53tWFUw6Q43NzE9'>Jos Movie Club</a>"""
+<b>Mean GROUP</b>
+- <a href='https://t.me/+1abklwNORh9kZWU9'>Chat🍿Room</a>"""
 
     MANUALFILTER_TXT = """Help: <b>Filters</b>
 
@@ -49,7 +49,7 @@ Source: <a href='https://github.com/josprojects/tgmoviebot'>GitHub - Click here 
 3. Buttons should be properly parsed as markdown format.
 
 <b>URL buttons:</b>
-<code>[Button Text](buttonurl:https://t.me/josprojects)</code>
+<code>[Button Text](buttonurl:https://t.me/Hindi_world_series)</code>
 
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
@@ -245,7 +245,7 @@ Some URLs is Shortner
 • /short <code>(link)</code> - I will send the shorted links.
 
 <b>Example:</b>
-<code>/short https://t.me/josprojects</code>
+<code>/short https://t.me/Hindi_world_series</code>
 
 <b>NOTE:</b>
 • IMDb should have admin privillage.
