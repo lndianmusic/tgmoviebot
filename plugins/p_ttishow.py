@@ -130,8 +130,7 @@ async def re_enable_chat(bot, message):
 
 @Client.on_message(filters.command('stats') & filters.incoming)
 async def get_ststs(bot, message):
-    rju = await message.reply('Fetching stats..')   
-
+    rju = await message.reply('Fetching stats..')
     total_users = await db.total_users_count()
     totl_chats = await db.total_chat_count()
     files = await Media.count_documents()
@@ -139,7 +138,7 @@ async def get_ststs(bot, message):
     free = 536870912 - size
     size = get_size(size)
     free = get_size(free)
-    await rju.edit(Script.STATUS_TXT.format(files, total_users, totl_chats, size, free)
+    await rju.edit(Script.STATUS_TXT.format(files, total_users, totl_chats, size, free))
 
 # a function for trespassing into others groups, Inspired by a Vazha
 # Not to be used , But Just to showcase his vazhatharam.
