@@ -132,7 +132,7 @@ async def re_enable_chat(bot, message):
 async def get_ststs(bot, message):
     rju = await message.reply('Fetching stats..')
         
-        return
+        
     await m.reply_text(
         text=f"**Total Users in Database 📂:** `{await db.total_users_count()}`\n\n**Total Users with Notification Enabled 🔔 :** `{await db.total_notif_users_count()}`",
         parse_mode="Markdown",
