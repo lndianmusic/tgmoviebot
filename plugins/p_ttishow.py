@@ -131,13 +131,14 @@ async def re_enable_chat(bot, message):
 @Client.on_message(filters.command('stats') & filters.incoming)
 async def get_ststs(bot, message):
     rju = await message.reply('Fetching stats..')
-        await m.delete()
+        
         return
     await m.reply_text(
         text=f"**Total Users in Database 📂:** `{await db.total_users_count()}`\n\n**Total Users with Notification Enabled 🔔 :** `{await db.total_notif_users_count()}`",
         parse_mode="Markdown",
         quote=True
     )
+    await rju.edit(Script.STATUS_TXT.format(files, total_users, totl_chats, size, free)
 
 
 # a function for trespassing into others groups, Inspired by a Vazha
