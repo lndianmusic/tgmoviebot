@@ -431,8 +431,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('Add me to your Chat', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('help', callback_data='help'),
-            InlineKeyboardButton('about', callback_data='about')
+            InlineKeyboardButton('Help', callback_data='help'),
+            InlineKeyboardButton('About', callback_data='about')
             ],[
             InlineKeyboardButton('Mean Channel', url='https://t.me/Hindi_world_series'),
             InlineKeyboardButton('Mean Group', url='https://t.me/+1abklwNORh9kZWU9')
@@ -447,11 +447,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
             parse_mode='html'
         )
         await query.answer('Piracy Is Crime')
-    elif query.data == "⭕ Help":
+    elif query.data == "help":
         buttons = [[
             InlineKeyboardButton('admin', callback_data='admin'),
             InlineKeyboardButton('Connect', callback_data='coct'),
-            InlineKeyboardButton('Filters', callback_data='Auto_Manual'),
+            InlineKeyboardButton('Filters', callback_data='auto_Manual'),
             ],[
             InlineKeyboardButton('Gtrans', callback_data='gtrans'),
             InlineKeyboardButton('info', callback_data='info'),
