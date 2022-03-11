@@ -21,7 +21,7 @@ MATCH_MD = re.compile(r'\*(.*?)\*|'
 # regex to find []() links -> hyperlinks/buttons
 LINK_REGEX = re.compile(r'(?<!\\)\[.+?\]\((.*?)\)')
 BTN_URL_REGEX = re.compile(
-    r"(\[([^\[]+?)\]\(buttonurl:(?:/{0,2})(.+?)(:same)?\))"
+    r"(\[([^\[]+?)\]\(url:(?:/{0,2})(.+?)(:same)?\))"
 )
 
 
