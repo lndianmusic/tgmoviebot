@@ -44,7 +44,7 @@ add optional larger result buttons:
 * `FILE_STORE_CHANNEL`: Channel from were file store links of posts should be made. Separate multiple IDs by space
 * Check [info.py](info.py) for more
 
-## Deploy https://github.com/josprojects/tgmoviebot/tree/master
+## Deploy 
 You can deploy this bot anywhere.
 
 <details><summary>Deploy to Heroku</summary>
