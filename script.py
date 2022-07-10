@@ -10,7 +10,7 @@ Here You Can Search Movie And Web Series Just Sand Your Movie or Web Series Righ
     ABOUT_TXT = """<b>➥ My name: {}
 ➥ Owner : <a href='https://t.me/moviesupdatetamil1'>Only q</a>
 
-➥ Mean Chennel : <a href='https://t.me/moviesupdatetamil1'>newmoviesod</a>
+➥ Mean Chennel : <a href='https://t.me/moviesupdatetamil1'>newmoviesdatamil</a>
 ➥ Mean Group : <a href='https://t.me/moviegrouptamil'>Chat🍿Room</a>
 ➥ Bot Server : <a href='https://heroku.com'>Heroku</a>"""
 
