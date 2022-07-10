@@ -1,5 +1,5 @@
 class Script(object):
-    START_TXT = """Hi, I'm <a href=https://t.me/Hindi_world_series>Hindi world seriea</a>! Smart Media Search bot
+    START_TXT = """Hi, I'm <a href=https://t.me/moviesupdatetamil1>newmoviesod</a>! Smart Media Search bot
 
 Here You Can Search Movie And Web Series Just Sand Your Movie or Web Series Right Name"""
 
@@ -8,21 +8,21 @@ Here You Can Search Movie And Web Series Just Sand Your Movie or Web Series Righ
 <b>Here Is The Help For My Commands.</b>"""
 
     ABOUT_TXT = """<b>➥ My name: {}
-➥ Owner : <a href='https://t.me/Hidden_boy_i'>Only q</a>
+➥ Owner : <a href='https://t.me/moviesupdatetamil1'>Only q</a>
 
-➥ Mean Chennel : <a href='https://t.me/Hindi_world_series'>Hindi World Series</a>
-➥ Mean Group : <a href='https://t.me/+1abklwNORh9kZWU9'>Chat🍿Room</a>
+➥ Mean Chennel : <a href='https://t.me/moviesupdatetamil1'>newmoviesod</a>
+➥ Mean Group : <a href='https://t.me/moviegrouptamil'>Chat🍿Room</a>
 ➥ Bot Server : <a href='https://heroku.com'>Heroku</a>"""
 
     SOURCE_TXT = """<b>Source:</b>
 IMDb is a Open source project.
-Source: <a href='https://t.me/hindi_world_series'>GitHub - Click here 👈</a>
+Source: <a href='https://t.me/moviesupdatetamil1'>GitHub - Click here 👈</a>
 
 <b>DEVS:</b>
-- <a href='https://t.me/Hidden_boy_i'>Only q </a>
+- <a href='https://t.me/moviesupdatetamil1'>Only q </a>
 
 <b>Mean GROUP</b>
-- <a href='https://t.me/+1abklwNORh9kZWU9'>Chat🍿Room</a>"""
+- <a href='https://t.me/moviegrouptamil'>Chat🍿Room</a>"""
 
     MANUALFILTER_TXT = """Help: <b>Filters</b>
 
@@ -49,7 +49,7 @@ Source: <a href='https://t.me/hindi_world_series'>GitHub - Click here 👈</a>
 3. Buttons should be properly parsed as markdown format.
 
 <b>URL buttons:</b>
-<code>[Button Text](buttonurl:https://t.me/Hindi_world_series)</code>
+<code>[Button Text](buttonurl:https://t.me/moviesupdatetamil1)</code>
 
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
