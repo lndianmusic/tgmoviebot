@@ -23,7 +23,7 @@ async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [
             [
-                InlineKeyboardButton('Mean Channel', url='https://t.me/Hindi_world_series')
+                InlineKeyboardButton('Mean Channel', url='https://t.me/moviesupdatetamil1')
             ],
             [
                 InlineKeyboardButton('help', url=f"https://t.me/{temp.U_NAME}?start=help"),
@@ -48,8 +48,8 @@ async def start(client, message):
             InlineKeyboardButton('help', callback_data='help'),
             InlineKeyboardButton('about', callback_data='about')
             ],[
-            InlineKeyboardButton('Mean Channel', url='https://t.me/Hindi_world_series'),
-            InlineKeyboardButton('Mean Group', url='https://t.me/+1abklwNORh9kZWU9')
+            InlineKeyboardButton('Mean Channel', url='https://t.me/moviesupdatetamil1'),
+            InlineKeyboardButton('Mean Group', url='https://t.me/moviegrouptamil')
             ],[
             InlineKeyboardButton('❌    Close    ❌', callback_data='close_data')
         ]]
@@ -94,8 +94,8 @@ async def start(client, message):
             InlineKeyboardButton('help', callback_data='help'),
             InlineKeyboardButton('about', callback_data='about')
             ],[
-            InlineKeyboardButton('Mean Channel', url='https://t.me/hindi_world_series'),
-            InlineKeyboardButton('Mean Group', url='https://t.me/+1abklwNORh9kZWU9')
+            InlineKeyboardButton('Mean Channel', url='https://t.me/moviesupdatetamil1'),
+            InlineKeyboardButton('Mean Group', url='https://t.me/moviegrouptamil')
             ],[
             InlineKeyboardButton('❌    Close    ❌', callback_data='close_data')
         ]]
@@ -142,8 +142,8 @@ async def start(client, message):
                 f_caption = f"{title}"
             buttons = [
                 [
-                    InlineKeyboardButton('Mean Group', url='https://t.me/+1abklwNORh9kZWU9'),
-                    InlineKeyboardButton('Mean channel', url='https://t.me/Hindi_world_series')
+                    InlineKeyboardButton('Mean Group', url='https://t.me/moviegrouptamil'),
+                    InlineKeyboardButton('Mean channel', url='https://t.me/moviesupdatetamil1')
                 ],
                 ]
             try:
@@ -253,8 +253,8 @@ async def start(client, message):
         f_caption = f"{files.file_name}"
     buttons = [
         [
-            InlineKeyboardButton('Mean Group', url='https://t.me/+1abklwNORh9kZWU9'),
-            InlineKeyboardButton('Mean Channel', url='https://t.me/Hindi_world_series')
+            InlineKeyboardButton('Mean Group', url='https://t.me/moviegrouptamil'),
+            InlineKeyboardButton('Mean Channel', url='https://t.me/moviesupdatetamil1')
         ],
         ]
     await client.send_cached_media(
